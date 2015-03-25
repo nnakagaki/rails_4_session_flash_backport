@@ -49,6 +49,9 @@ module ActionDispatch
         @now     = nil
       end
 
+      def sweep
+      end
+
     end
 
     def call(env)
